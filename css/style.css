@@ -1,8 +1,31 @@
-td, th {
-	border: 1px solid;
-  }
+html {
+	background-color: rgb(13,0,26);
+}
 
 #mainHeader {
-	font-family: Roboto;
+	font-family: Roboto, Times, sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+}
+
+.dataRow {
+	font-family: Roboto, Times, sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+}
+
+.key {
+	color: yellow;
+}
+
+table {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+tr td {
 	text-align: center;
 }
